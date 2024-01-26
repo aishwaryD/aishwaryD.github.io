@@ -7,7 +7,7 @@ const config = {
   // favicon: 'images/favicon.ico',
   favicon: 'images/logo.svg',
   url: 'https://aishwaryD.github.io',
-  baseUrl: '/',
+  baseUrl: '/my-smart-notes/',
   organizationName: 'aishwaryD',
   projectName: 'my-smart-notes',
   deploymentBranch: 'deployment',
