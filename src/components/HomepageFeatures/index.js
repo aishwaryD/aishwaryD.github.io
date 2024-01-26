@@ -8,7 +8,7 @@ import TechExperts from '../images/techexperts.svg';
 
 const FeatureList = [
   {
-    title: <Translate>To The Point!!</Translate>,
+    title: <Translate>To The Point</Translate>,
     description: (
       <Translate>
         Navigate through your software engineering journey effortlessly with our easy-to-follow notes, articles, and tutorials.
