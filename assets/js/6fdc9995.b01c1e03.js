@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmysmartnotes=self.webpackChunkmysmartnotes||[]).push([[893],{5745:s=>{s.exports=JSON.parse('{"name":"docusaurus-plugin-content-pages","id":"default"}')}}]);
