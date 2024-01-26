@@ -10,7 +10,7 @@ const config = {
   baseUrl: '/my-smart-notes/',
   organizationName: 'aishwaryD',
   projectName: 'my-smart-notes',
-  deploymentBranch: 'deployment',
+  deploymentBranch: 'gh-pages',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   i18n: {
