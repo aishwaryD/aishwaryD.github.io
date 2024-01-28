@@ -31,7 +31,7 @@ export default function HomepageHeader() {
           <div className={styles.buttons}>
             <Link
               className="button button--primary button--lg"
-              to="/">
+              to="/voice-over-internet-protocol">
               <Translate>Start Reading →</Translate>
             </Link>
             <Link

@@ -85,6 +85,20 @@ const config = {
         src: 'images/logo.svg',
         srcDark: 'images/logo.svg',
       },
+      items: [
+        {
+          type: "dropdown",
+          label: "Read",
+          position: "left",
+          items: [
+            {
+              type: "doc",
+              docId: "categories/Communication Technologies/voip",
+              label: "Technologies",
+            },
+          ]
+        },
+      ],
     },
     footer: {
       style: 'dark',
