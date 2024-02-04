@@ -22,7 +22,7 @@ export default function HomepageHeader() {
         <div className={styles.right}>
           <h1 className="title">My Smart Notes</h1>
           <p >
-            <Translate>Quick Reference Handbook for every Software Engineer!</Translate>
+            <Translate>Quick Reference Portal for Software Engineers!</Translate>
           </p>
           <p >
             <Translate>Everything you need - all straight to the point!!</Translate>
@@ -36,8 +36,8 @@ export default function HomepageHeader() {
             </Link>
             <Link
               className="button button--secondary button--lg"
-              to="/">
-              <Translate>Build Projects</Translate>
+              to="/cheatsheet/rest-api">
+              <Translate>Cheat Sheets</Translate>
             </Link>
           </div>
         </div>

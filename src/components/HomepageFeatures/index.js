@@ -2,37 +2,37 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from "./styles.module.css";
 import Translate from '@docusaurus/Translate';
+import ShortAndCrisp from '../images/shortandcrisp.svg';
 import ToThePoint from '../images/tothepoint.svg';
-import StepByStep from '../images/stepbystep.svg';
-import TechExperts from '../images/techexperts.svg';
+import UpToDate from '../images/uptodate.svg';
 
 const FeatureList = [
   {
-    title: <Translate>To The Point</Translate>,
+    title: <Translate>Short and Crisp</Translate>,
     description: (
       <Translate>
-        Navigate through your software engineering journey effortlessly with our easy-to-follow notes, articles, and tutorials.
+        Uncover tech essentials with concise content and tutorials. Short, impactful, and laser-focused for your learning needs.
       </Translate>
     ),
-    icon: <ToThePoint className={ styles.icon } />
+    icon: <ShortAndCrisp className={ styles.icon } />
   },
   {
-    title: <Translate>Step by Step</Translate>,
+    title: <Translate>To the Point</Translate>,
     description: (
       <Translate>
-        Master concepts and build projects confidently with our step-by-step instructions, tailored for every level of expertise.
+        Navigate your software engineering journey effortlessly with straightforward content. No noise, just the precise insights. 
       </Translate>
     ),
-    icon: <StepByStep className={ styles.icon } />,
+    icon: <ToThePoint className={ styles.icon } />,
   },
   {
-    title: <Translate>Curated by Experts</Translate>,
+    title: <Translate>Up to Date</Translate>,
     description: (
       <Translate>
-        Benefit from the most relevant insights curated by industry experts for your successful software development endeavors.
+        Stay ahead with the latest insights and be equipped with the most current knowledge in the fast-paced world of technology.
       </Translate>
     ),
-    icon: <TechExperts className={ styles.icon } />
+    icon: <UpToDate className={ styles.icon } />
   },
 ];
 

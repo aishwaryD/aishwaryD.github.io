@@ -17,10 +17,13 @@
     "@docusaurus/core": "^3.1.1",
     "@docusaurus/plugin-content-docs": "^3.1.1",
     "@docusaurus/preset-classic": "^3.1.1",
+    "@docusaurus/theme-live-codeblock": "^3.1.1",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
+    "codemirror": "^6.0.1",
     "prism-react-renderer": "^2.3.0",
     "react": "^18.0.0",
+    "react-codemirror2": "^7.3.0",
     "react-dom": "^18.0.0"
   },
   "devDependencies": {
