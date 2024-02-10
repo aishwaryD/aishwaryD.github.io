@@ -6,7 +6,7 @@ const config = {
   tagline: 'Quick Reference Portal for Software Engineers',
   // favicon: 'images/favicon.ico',
   favicon: 'images/logo.svg',
-  url: 'https://aishwaryD.github.io',
+  url: 'https://mysmartnotes.com',
   baseUrl: '/',
   organizationName: 'aishwaryD',
   projectName: 'aishwaryD.github.io',
@@ -47,6 +47,16 @@ const config = {
   ],
 
   plugins: [
+    [
+      '@docusaurus/plugin-sitemap',
+      {
+        id: 'sitemap', // Assign a unique ID to the plugin instance
+        changefreq: 'weekly',
+        priority: 0.5,
+        ignorePatterns: ['/tags/**'],
+        filename: 'sitemap.xml',
+      },
+    ],
     [
       '@docusaurus/plugin-content-docs',
       {
