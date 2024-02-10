@@ -9,7 +9,7 @@ const config = {
   url: 'https://mysmartnotes.com',
   baseUrl: '/',
   organizationName: 'aishwaryD',
-  projectName: 'aishwaryD.github.io',
+  projectName: 'mysmartnotes',
   deploymentBranch: 'gh-pages',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
